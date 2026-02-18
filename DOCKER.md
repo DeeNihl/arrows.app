@@ -5,7 +5,7 @@ This document describes how to build and run arrows.app using Docker.
 ## Prerequisites
 
 - Docker Engine 20.10 or later
-- Docker Compose 2.0 or later (optional, for using docker-compose)
+- Docker Compose V2 (included with Docker Desktop or Docker Engine 23.0+)
 
 ## Quick Start
 
@@ -14,7 +14,7 @@ This document describes how to build and run arrows.app using Docker.
 The easiest way to run arrows.app is using Docker Compose:
 
 ```bash
-docker-compose up -d
+docker compose up -d
 ```
 
 The application will be available at http://localhost:8080
@@ -22,7 +22,7 @@ The application will be available at http://localhost:8080
 To stop the application:
 
 ```bash
-docker-compose down
+docker compose down
 ```
 
 ### Using Docker CLI
@@ -102,7 +102,7 @@ Look for the health status in the STATUS column.
 
 **Docker Compose:**
 ```bash
-docker-compose logs -f
+docker compose logs -f
 ```
 
 **Docker CLI:**
@@ -114,8 +114,8 @@ docker logs -f arrows-app
 
 **Docker Compose:**
 ```bash
-docker-compose build --no-cache
-docker-compose up -d
+docker compose build --no-cache
+docker compose up -d
 ```
 
 **Docker CLI:**

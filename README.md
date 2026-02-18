@@ -34,7 +34,7 @@ Arrows.app can be easily deployed using Docker. See [DOCKER.md](DOCKER.md) for d
 
 **Quick Start:**
 ```bash
-docker-compose up -d
+docker compose up -d
 ```
 
 The application will be available at http://localhost:8080
