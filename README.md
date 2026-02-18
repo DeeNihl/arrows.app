@@ -28,6 +28,17 @@ For suggestions and feedback, please start a [discussion](https://github.com/neo
 
 To chat directly with the developers about contributing code, join us over on [Neo4j Discord #neo4j-arrows](https://discord.gg/neo4j).
 
+## Docker Support
+
+Arrows.app can be easily deployed using Docker. See [DOCKER.md](DOCKER.md) for detailed instructions.
+
+**Quick Start:**
+```bash
+docker compose up -d
+```
+
+The application will be available at http://localhost:8080
+
 ---
 
 # Arrows codebase

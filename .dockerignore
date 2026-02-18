@@ -1,0 +1,52 @@
+# Dependencies
+node_modules
+npm-debug.log
+
+# Build artifacts
+dist
+.vite
+.nx
+
+# Testing
+coverage
+*.test.ts
+*.test.tsx
+*.test.js
+*.test.jsx
+*.spec.ts
+*.spec.tsx
+*.spec.js
+*.spec.jsx
+
+# Git
+.git
+.gitignore
+
+# IDE
+.vscode
+.idea
+
+# Environment files
+.env.local
+.env.*.local
+
+# Misc
+.DS_Store
+*.log
+*.tmp
+*.temp
+
+# CI/CD
+.github
+.gcloudignore
+cloudbuild.yaml
+
+# Documentation
+README.md
+CONTRIBUTING.md
+CODE_OF_CONDUCT.md
+DEVELOP.md
+LICENSE
+
+# Cypress
+apps/arrows-ts-e2e
